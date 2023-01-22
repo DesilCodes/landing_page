@@ -1,0 +1,172 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    background-color: darkcyan;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.container h1 {
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 0;
+    padding-left: 5%;
+}
+
+.container li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.container img {
+    max-width: 10%;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.subheading {
+    background-color: darkcyan;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding-left: 5%;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.subheading h2 {
+    font-size: 45px;
+    max-width: 45%;
+    margin-right: auto;
+}
+.subheading p {
+    margin-right: auto;
+}
+
+.subheading div button {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+}
+
+.subheading #button {
+    margin-bottom: auto;
+    padding-bottom: 5%;
+}
+
+#image img {
+    width: 100%;
+    border-radius: 5px;
+    float: right;
+}
+
+.mainsub {
+    display: flex;
+}
+
+#image {
+    background-color: darkcyan;
+    margin-right: auto;
+    max-width: 40%;
+    padding-right: 10%;
+}
+
+
+.content {
+    display: flex;
+    color: darkslategray;
+    background-color:mintcream;
+    flex-direction: column;
+}
+
+.content .subcontent .divide div {
+    border: 2px solid blue;
+    padding: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 25px;
+    
+}
+
+.content .subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divide {
+    display: flex;
+}
+
+.divide2 {
+    display: flex;
+    font-size: 15px;
+}
+
+.divide2 p {
+    margin-top: auto;
+    padding: 5px;
+    
+}
+
+.quote {
+    display: flex;
+    background-color: cornsilk;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote h2 {
+    margin: 10%;
+    text-align: left;
+    max-width: 35%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:mintcream;
+}
+
+.footer #bluebox {
+    background-color: cornflowerblue;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+
+.footer #bluebox button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-bottom: 5%;
+}
